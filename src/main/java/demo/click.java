@@ -29,6 +29,7 @@ public class click {
 				List<WebElement> l=driver.findElements(By.xpath("//a[@class='a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal']"));
 				Iterator a=l.iterator();
 				String x="OnePlus 11 5G (Eternal Green, 8GB RAM, 128GB Storage)";
+				System.out.println("Value of x : "+ x);
 				while(a.hasNext())
 				{
 				WebElement i= (WebElement) a.next();
